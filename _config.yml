@@ -2,7 +2,7 @@
 title: Bookie reviews!
 description: "Your guide to match betting!"
 baseurl: "/jeklayback" # the subpath of your site, e.g. /blog/
-url: "http://www.bonusbet.com.au" # the base hostname & protocol for your site
+url: "http://andrew1980uk.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
