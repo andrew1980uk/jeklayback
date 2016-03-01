@@ -7,12 +7,12 @@ deposit: $200
 betwith: $200
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
+  
+  
 
 badpoints:
-  - point: a website
-  - point: a website
+  
+  
 ---
 Palmerbet is an Australian owned and NSW licensed bookmaker. 
 

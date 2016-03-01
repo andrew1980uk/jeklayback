@@ -8,12 +8,12 @@ deposit: $300
 betwith: $300
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
+  
+  
 
 badpoints:
-  - point: a website
-  - point: a website
+  
+  
 ---
 William Hill plc is a bookmaker based in the United Kingdom and is listed on the London Stock Exchange.
 

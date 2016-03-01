@@ -7,16 +7,11 @@ deposit: $300
 betwith: $300
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
-
+  
 badpoints:
-  - point: a website
-  - point: a website
+  
+  
 ---
-###### Unibet.
+Unibet is a company that operates with online gambling and offers products such as online casino, online poker, online bingo, sports betting, soft games, scratch cards and live betting. 
 
-This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.
-This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.
-
-This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.This is page about unibet.
+The headquarters of the company is located in Malta and is owned by Nordic OMX listed public company Unibet Group plc. In 2012, the company’s turnover was GBP 197.2 million.

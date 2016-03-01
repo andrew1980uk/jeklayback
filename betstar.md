@@ -12,8 +12,8 @@ goodpoints:
   - point: a betstar good point
 
 badpoints:
-  - point: a website
-  - point: a website
+  
+  
 ---
 Betstar (Eskander's Betstar) established in 2007,[1] is an Australian Corporate Bookmaking firm that are based and established within Melbourne and Darwin.
 

@@ -8,12 +8,12 @@ deposit: $200
 betwith: $200
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
+  
+  
 
 badpoints:
-  - point: a website
-  - point: a website
+  
+  
 ---
 Betfair Group plc is the world's largest Internet betting exchange. The company's headquarters are located in Hammersmith in West London, England. Since 9 March 2011 Betfair has operated its betting exchange under a Gibraltar licence. It was listed on the London Stock Exchange until it merged with Paddy Power to form Paddy Power Betfair on 2 February 2016.
 

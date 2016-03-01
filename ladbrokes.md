@@ -14,15 +14,15 @@ easeofuse: 5
 
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
-  - point: a website
-  - point: a website
+  
+  
+  
+  
 
 badpoints:
-  - point: a website
-  - point: a website
-  - point: a website
+  
+  
+  
 ---
 
 Ladbrokes plc is a British-based betting and gambling company. 

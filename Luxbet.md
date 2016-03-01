@@ -8,12 +8,12 @@ deposit: $300
 betwith: $300
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
+  
+  
 
 badpoints:
-  - point: a website
-  - point: a website
+  
+  
 ---
 
 Luxbet is an online betting company based in the Northern Territory, Australia. 

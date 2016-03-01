@@ -7,14 +7,14 @@ deposit: $300
 betwith: $300
 goodpoints:
   - point: LIMITED TIME ONLY!
-  - point: a website
-  - point: a website
+  
+  
 
 badpoints:
-  - point: a website
-  - point: a website
-  - point: a website
-  - point: a website
+  
+  
+  
+  
 ---
 Based in Melbourne, Australia, Sportsbet is a licensed online bookmaker (licensed in NT, Australia) boasting well over half a million Aussie customers - and for good reason... 
 
