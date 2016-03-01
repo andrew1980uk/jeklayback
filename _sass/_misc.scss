@@ -60,6 +60,12 @@ ul.bookie-list a .bookie-list-text p{
 
 /* FIXED SIDENAV FIX */
     
+    nav {
+
+      text-align:center;
+
+    }
+
     .side-nav {
       background: $primary-color;
     }
@@ -109,10 +115,21 @@ ul.bookie-list a .bookie-list-text p{
     color: red !important;
     }
 
+    .mobilelogo {
+
+      height: 45px;
+      padding: 18px 45px 0 0;
+      margin: 0 auto 0 auto;
+
+    }
+
     @media #{$large-and-up} {
     // styles for large screens and up
       nav {
         height: 0px !important;
+      }
+      .mobilelogo {
+        display:none;
       }
     }
   
