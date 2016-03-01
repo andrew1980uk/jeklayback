@@ -10,7 +10,7 @@ ul.bookie-list li{
   /*display: table-row;*/
   height: 48px; /* that's actually min-height for rows */
   &:hover {
-        background:$grey-color-light;
+        background:$primary-color-light;
     }
 }
 ul.bookie-list li a > *{
@@ -45,6 +45,12 @@ ul.bookie-list a .bookie-list-icon{
 }
 ul.bookie-list a .bookie-list-text{
   /*background: rgba(0,0,255,0.05);*/
+   text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-size: 14.5px;
 }
 
 ul.bookie-list a .bookie-list-text p{
@@ -53,6 +59,15 @@ ul.bookie-list a .bookie-list-text p{
 
 
 /* FIXED SIDENAV FIX */
+    
+    .side-nav {
+      background: $primary-color;
+    }
+
+    .side-nav li {
+        float: none;
+        padding: 0 0 0 10px;
+    }
 
     header, main, footer {
       padding-left: 240px;
@@ -65,8 +80,14 @@ ul.bookie-list a .bookie-list-text p{
     }
 
     .side-nav .logoLink {
-      height: 150px;
+      height: 100px;
     }
+
+    .side-nav .logoLink img {
+      padding-top:20px;
+      width: 80%;
+    }
+
 
     @media #{$large-and-up} {
     .page-content {
@@ -88,4 +109,10 @@ ul.bookie-list a .bookie-list-text p{
     color: red !important;
     }
 
+    @media #{$large-and-up} {
+    // styles for large screens and up
+      nav {
+        height: 0px !important;
+      }
+    }
   
