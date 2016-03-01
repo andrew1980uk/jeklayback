@@ -2,66 +2,75 @@
 layout: default
 ---
 <style>
-.bookieWebsiteImage {
-  width:300px;
-  height:300px;
-  background:
-    url('{{ base }}/img/bookies/{{ page.permalink }}website_small.png') top left 15% no-repeat;
+  .bookieWebsiteImage {
+    margin: 0 auto 0 auto;
+    height:300px;
+    background:
+    url('{{ base }}/img/bookies/{{ page.permalink }}website_small.png') 15% no-repeat;
     background-size: 300px;
-        background-position: top;
-}
+    background-position: top center;
+  }
 </style>
 
 <!-- <div class="parallax-container">
       <div class="parallax">
       <img src="{{ base }}/img/bookies/{{ page.permalink }}website.png">
       </div>
-</div> -->
+    </div> -->
 
-<div class="row">
+<!-- <div class="row">
 <div class="col s12 reviewLogo">
 <img alt='{{ page.title }}' title='{{ page.title }}' src ="{{ base }}/img/bookies/{{ page.permalink }}320x90.gif" />
 </div>
-</div>
+</div> -->
 <div class="row card-panel">
-        <div class="bookieWebsiteImage col s12 m12 l6 col s12">
-        </div>
-          <div class='col s12 m12 l6 center-align'>
-          <h5>First Bet Match Up to {{ page.bonusbet }}!</h5>
-          <p class="flow-text">Deposit 
-          <strong>any</strong> amount and {{ page.title }} will match your first bet with a bonus bet up to {{ page.bonusbet }}.
-          </p>
-          <hr>
-          </div>
-          <div class='col s12 m12 l6 center-align'>
-          {% include offertable.html %}
-          <button class="waves-effect waves-light btn-large">
-          Claim {{ page.bonusbet }} bonus bet now!
-          </button>
-        </div>
+
+  <div class="col s12 m12 l6">
+    <div class="row center-align">
+    <img class="z-depth-2" alt='{{ page.title }}' title='{{ page.title }}' src ="{{ base }}/img/bookies/{{ page.permalink }}320x90.gif" />
+    </div>
+    <div class="row">
+      <div class="bookieWebsiteImage">
+      </div>
+    </div>
+  </div>
+  <div class='col s12 m12 l6 center-align'>
+    <h5>First Bet Match Up to {{ page.bonusbet }}!</h5>
+    <p class="flow-text">Deposit 
+      <strong>any</strong> amount and {{ page.title }} will match your first bet with a bonus bet up to <b>{{ page.bonusbet }}</b>.
+    </p>
+    <hr>
+  </div>
+
+  <div class='col s12 m12 l6 center-align'>
+    {% include offertable.html %}
+    <br>
+    <button class="waves-effect waves-light btn-large">
+      Claim {{ page.bonusbet }} bonus bet now!
+    </button>
+  </div>
 </div>
 
 <div class="row">
-<div class="col s12 m6 l6">
+  <div class="col s12 m6 l6">
+    <p>{{ content }}</p>
+  </div>
+  <div class="col s12 m6 l6">
 
-      <p>{{ content }}</p>
-</div>
-<div class="col s12 m6 l6">
 
+    <ul class="collection with-header">
+      <li class="collection-header"><h5>Key points</h5></li>
+      {% for item in page.goodpoints %}
+      <li class="collection-item">
+        <!-- <span class="title">{{ item.title }}</span> -->
+        <div>{{ item.point }}
+          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a></div>
+        </li>
+        {% endfor %}
+      </ul>
 
-<ul class="collection with-header">
-<li class="collection-header"><h5>Key points</h5></li>
- {% for item in page.goodpoints %}
-    <li class="collection-item">
-      <!-- <span class="title">{{ item.title }}</span> -->
-      <div>{{ item.point }}
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a></div>
-    </li>
-    {% endfor %}
-  </ul>
+    </div>
 
-</div>
-
-</div>
-<h5>Featured bookies</h5></li>
-{% include featured-bookies-review.html %}
+  </div>
+  <h5>Featured bookies</h5></li>
+  {% include featured-bookies-review.html %}
