@@ -19,8 +19,8 @@
 <nav>
  <div id="slide-out" class="side-nav fixed">
    <div class="row center-align">
-     <a class="logoLink" href="{{ site.baseurl }}">
-      <img src="{{ site.baseurl }}img/logo.gif" />
+     <a class="logoLink" href="{{ base }}">
+      <img src="{{ base }}img/logo.gif" />
      </a>
   </div>   
 
@@ -30,7 +30,7 @@
     <li class="border-bottom">
     <a class="bookie-list-link" href="{{ my_page.url | prepend: site.baseurl }}">
       <div class="bookie-list-icon">
-       <img src="{{ site.baseurl }}img/bookies{{ my_page.permalink }}24x24.png" />
+       <img src="{{ base }}img/bookies{{ my_page.permalink }}24x24.png" />
       </div>
       <div class="bookie-list-text">
         {{ my_page.title }}
