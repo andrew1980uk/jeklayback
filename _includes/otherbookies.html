@@ -3,7 +3,7 @@
 </div>
 <div class="row">
 {% assign counter = '0' %}
-{% for page in site.pages %}
+{% for page in site.bookies %}
 {% if page.title and page.tag != 'featured' %}
     <div class="col s6 m4 l2">
           <div class="card hoverable">
@@ -15,7 +15,7 @@
               Deposit <span class="bold">{{ page.deposit }}</span> and get a {{ page.bonusbet }} bonus bet!
             </div>
             <div class="card-action center-align">
-              <a href="{{ page.url | prepend: site.baseurl }}">Read more&hellip;</a>
+              <a href="{{ page.url | prepend: site.base }}">Read more&hellip;</a>
             </div>
           </div>
     </div>
